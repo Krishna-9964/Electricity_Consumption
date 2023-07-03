@@ -1,0 +1,20 @@
+#report {
+    list-style-type: none;
+    padding: 0;
+}
+
+#report li {
+    display: flex;
+}
+
+#report li:hover {
+    background-color: #fff;
+    transition: 0.35s;
+    border-radius: 5px;
+}
+
+#report li h5 {
+    flex: 1;
+    margin: 10px;
+    width: 50%;
+}
